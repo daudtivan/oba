@@ -6,13 +6,13 @@
 
 #rom 0x3ff = {0x34b4}
 
-//DECLARA«√O DE VARI¡VEIS
+//DECLARA√á√ÉO DE VARI√ÅVEIS
 
-#define vbat pin_a0 // tens„o da bateria no pino 0
-#define vpla pin_a1 // tens„o do painel no pino 1
+#define vbat pin_a0 // tens√£o da bateria no pino 0
+#define vpla pin_a1 // tens√£o do painel no pino 1
 #define gate pin_a2 // Carregador de REDE
 #define leda pin_a5 // Carregar por painel solar
-#define rssg pin_a4 // ?? O QUE … O RSSG?
+#define rssg pin_a4 // ?? O QUE √â O RSSG?
 #define BAT 0
 #define OWN 1      //fonte energia propria
 #define AUX 2      //fonte energia auxiliar
