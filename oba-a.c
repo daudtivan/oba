@@ -74,6 +74,8 @@ void main()
             output_low(leda);       //desativa led amarelo
             output_low(rssg);       //desliga fonte externa
             src = AUX;      //indica fonte auxiliar
+          /*it should wait 2h before a new verification to avoid false-positive as aux power will be active*/
+           wait(2*60*1000);     //wait 2h
          }
       }
    }
